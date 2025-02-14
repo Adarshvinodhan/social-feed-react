@@ -5,6 +5,7 @@ import { createTheme } from '@mui/material/styles';
 import Login from './components/Login';
 import Register from './components/Register';
 import PostFeed from './components/PostFeed';
+import UserRoutes from './routes/AdminRoutes';
 
 
 
@@ -17,7 +18,7 @@ function App() {
         <Routes>
           <Route path="/login" element={<Login />} />
           <Route path="/register" element={<Register />} />
-          <Route path="/" element={<PostFeed />} />
+          <Route path="/" element={<UserRoutes><PostFeed /> </UserRoutes>} />
         </Routes>
       </BrowserRouter>
     </ThemeProvider>

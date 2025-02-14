@@ -1,7 +1,7 @@
 import axios from 'axios';
 
 const api = axios.create({
-  baseURL: 'http://localhost:3000', //base URL for all requests
+  baseURL: 'https://social-feed-server.onrender.com', //base URL for all requests
   headers: {
     'Content-Type': 'application/json',
   },
