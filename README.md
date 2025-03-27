@@ -1,8 +1,60 @@
-# React + Vite
+# Social Media Feed
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Live:https://socialmediafeed-mern.netlify.app/
 
-Currently, two official plugins are available:
+A modern and responsive social media feed built with React, Material-UI (MUI), and Tailwind CSS.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## Features
+- **User-Friendly Interface**: Clean and interactive UI with a modern design.
+- **Post Creation**: Users can create and share posts.
+- **Like & Comment**: Engage with posts through likes and comments.
+- **Dark Mode Support**: Seamless dark mode experience.
+- **Responsive Design**: Works across various devices.
+- **Optimized Performance**: Uses best practices for speed and efficiency.
+
+## Tech Stack
+- **React** - Frontend framework
+- **Material-UI (MUI)** - UI components and theming
+- **Tailwind CSS** - Utility-first CSS framework for styling
+- **React Router** - Navigation management
+
+## Installation
+
+1. **Clone the repository**
+   ```sh
+   git clone https://github.com/your-username/social-media-feed.git
+   cd social-media-feed
+   ```
+2. **Install dependencies**
+   ```sh
+   npm install
+   ```
+3. **Start the development server**
+   ```sh
+   npm start
+   ```
+
+## Project Structure
+```
+/social-media-feed
+│── public/                # Static assets
+│── src/
+│   ├── components/        # Reusable UI components
+│   ├── pages/             # Application pages
+│   ├── context/           # Context API
+│   ├── hooks/             # Custom hooks
+│   ├── styles/            # Global styles
+│   ├── App.js             # Main app component
+│   ├── index.js           # Entry point
+│── tailwind.config.js     # Tailwind CSS configuration
+│── package.json          # Project dependencies
+│── README.md             # Project documentation
+```
+
+## Customization
+- Modify theme settings in `tailwind.config.js` and MUI theme provider.
+- Update colors, spacing, and typography according to your design needs.
+
+
+Enjoy building! 🚀
+
